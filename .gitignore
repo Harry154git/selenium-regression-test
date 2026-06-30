@@ -1,0 +1,29 @@
+# ==========================================
+# Python & Virtual Environment
+# ==========================================
+venv/
+env/
+ENV/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ==========================================
+# Pytest & Testing Cache
+# ==========================================
+.pytest_cache/
+.cache/
+*.log
+
+# ==========================================
+# Selenium & Webdriver Manager Cache
+# ==========================================
+.wdm/
+
+# ==========================================
+# File Dummy atau Hasil Generate
+# ==========================================
+sertifikat_dummy.pdf
+sertifikat_dummy.png
+dummy_virus.exe
+dummy_program.exe
