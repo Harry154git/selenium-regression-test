@@ -1,16 +1,16 @@
 # Automated Regression Testing - Sistem Pengujian Tanah (Sondir)
 
-Repositori/folder ini berisi skrip otomatisasi pengujian (*Automated Regression Testing*) menggunakan **Python, Pytest, dan Selenium** untuk aplikasi Sistem Informasi Manajemen Pengujian Tanah berbasis Laravel (PPKPL-UAS).
+Repositori ini berisi skrip otomatisasi pengujian (*Automated Regression Testing*) menggunakan **Python, Pytest, dan Selenium** untuk aplikasi Sistem Informasi Manajemen Pengujian Tanah berbasis Laravel (PPKPL-UAS).
 
-Untuk memastikan pengujian berjalan lancar, Anda **wajib** menjalankan aplikasi utama (Laravel) beserta data *dummy* (*seeder*) terlebih dahulu sebelum menjalankan skrip Selenium.
+Untuk memastikan pengujian berjalan lancar, Jalankan aplikasi utama (Laravel) beserta data seeder terlebih dahulu sebelum menjalankan skrip Selenium.
 
 ---
 
 ## Tahap 1: Persiapan Aplikasi Laravel (PPKPL-UAS)
 
-Pastikan komputer Anda sudah terinstall **PHP, Composer, Node.js, dan Database (MySQL/Laragon/XAMPP)**.
+Pastikan komputer sudah terinstall **PHP, Composer, Node.js, dan Database (MySQL/Laragon/XAMPP)**.
 
-1. Buka terminal/CMD dan arahkan ke direktori root proyek Laravel Anda:
+1. Buka terminal/CMD dan arahkan ke direktori root proyek Laravel:
    ```bash
    cd path/ke/PPKPL-UAS
    ```
@@ -23,7 +23,7 @@ Pastikan komputer Anda sudah terinstall **PHP, Composer, Node.js, dan Database (
 
 3. Siapkan file konfigurasi lingkungan (Environment):
    - Copy file `.env.example` menjadi `.env`.
-   - Sesuaikan konfigurasi database (`DB_DATABASE`, `DB_USERNAME`, `DB_PASSWORD`) sesuai dengan server lokal Anda.
+   - Sesuaikan konfigurasi database (`DB_DATABASE`, `DB_USERNAME`, `DB_PASSWORD`) sesuai dengan server lokal.
 
 4. Generate kunci aplikasi:
    ```bash
@@ -48,7 +48,7 @@ Pastikan komputer Anda sudah terinstall **PHP, Composer, Node.js, dan Database (
 
 ## Tahap 2: Persiapan Lingkungan Selenium
 
-Pastikan komputer Anda sudah terinstall Python (versi 3.8+) dan browser Google Chrome.
+Pastikan komputer sudah terinstall Python (versi 3.8+) dan browser Google Chrome.
 
 1. Buka terminal baru dan arahkan ke folder testing ini:
    ```bash
